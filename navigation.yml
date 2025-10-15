@@ -1,0 +1,28 @@
+# This file defines the menu links for your GitHub Pages site.
+# It is organized into two sections: Internal Jumps (for the single-page layout)
+# and External Links (for professional resources).
+
+# --- Internal Navigation (Anchors on the index.html page) ---
+# To use these, ensure the corresponding sections in index.html have an ID,
+# e.g., <section id="about">...</section>
+internal_nav:
+  - title: "About Me"
+    url: "#about"
+  - title: "Experience"
+    url: "#experience"
+  - title: "Expertise"
+    url: "#expertise"
+  - title: "Education"
+    url: "#education"
+
+# --- Professional Resources (External Links) ---
+external_links:
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/susan-nasirumbi-808526a0/"
+    target: "_blank"
+  - title: "GitHub"
+    url: "https://github.com/16Suzie"
+    target: "_blank"
+  - title: "Download CV (PDF)"
+    url: "Susan Nasirumbi_CV.pdf"
+    target: "_blank"
