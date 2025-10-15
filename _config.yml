@@ -1,1 +1,25 @@
+# Site Settings
+title: Susan Nasirumbi Mukhule - InfoSec Specialist
+description: >-
+  Information Systems Security Specialist with 6+ years of experience in cyber defense, vulnerability management, incident response, and regulatory compliance.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://16suzie.github.io" # the base hostname & protocol for your site
+
+# Author/Owner Information
+author: Susan Nasirumbi Mukhule
+email: susan.nasirumbi@gmail.com
+linkedin_username: susan-nasirumbi-808526a0
+github_username: 16Suzie
+
+# Build Settings (Jekyll)
+# Exclude files/folders that don't need to be processed
+exclude:
+  - README.md
+  - LICENSE
+  - vendor
+
+# Theme Setup (if you were using a theme, you'd define it here)
+# For plain HTML, we just ensure Jekyll doesn't try to process it heavily.
+markdown: kramdown
+permalink: /:title/
 
